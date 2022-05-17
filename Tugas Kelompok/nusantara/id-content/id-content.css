@@ -1,0 +1,9 @@
+.breakingnews-container {
+    position: relative;
+    width: 100%;
+    background: #CE2B2B;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    z-index: -1;
+}

@@ -1,0 +1,165 @@
+/*log in and sign up*/
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    margin: 0px;
+    font-size: 18px;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-family: 'ChomskyRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.login-wrapper,
+.signup-wrapper {
+    display: block;
+    margin: 2.5em auto 0px;
+    padding: 0;
+    width: 100%;
+    min-width: 25em;
+    max-width: 27em;
+}
+
+.login-grid,
+.signup-grid {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.login-wrapper h1,
+.signup-wrapper h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.login-option p,
+.signup-option p {
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.category {
+    text-align: center;
+}
+
+.category a {
+    font-weight: bold;
+}
+
+.category p {
+    border-bottom: none;
+}
+
+p span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.dropdown button {
+    outline: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.form-check {
+    margin-left: 2.3em;
+    max-width: fit-content;
+}
+
+input[type="submit"] {
+    width: 450px;
+    padding: 2px 0;
+    border-radius: .25rem;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 767px) {
+
+    /*for smartphone*/
+    /*hamburger menu*/
+    .login-button {
+        padding: 8px 0;
+    }
+
+    /*layout index page dibawah slideshow (index-content)*/
+    .index-content .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /*header untuk login page*/
+    .login-wrapper,
+    .signup-wrapper {
+        max-width: inherit;
+        padding: 0 10px;
+    }
+
+    .category {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .login-button {
+        padding: 8px 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    /*for laptop*/
+    .btn-warning {
+        margin: .5em 0;
+    }
+}
+
+footer {
+    width: 100%;
+    margin-top: 116px;
+    border-top: 2px solid #ebebeb;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    height: 65px;
+    padding-left: 25px;
+    text-align: center;
+    color: rgb(170, 170, 170);
+    font-size: 12px;
+}
+
+footer ul a {
+    color: rgb(170, 170, 170);
+}
+
+.footer .copyright {
+    font-size: 12px;
+    margin: 0px;
+    margin-bottom: 0px;
+    margin-top: 1px;
+    color: rgb(170, 170, 170);
+    height: 13px;
+    padding: 0px;
+}
